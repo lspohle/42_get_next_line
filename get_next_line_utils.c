@@ -6,7 +6,7 @@
 /*   By: lspohle <lspohle@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/11 07:38:51 by lspohle           #+#    #+#             */
-/*   Updated: 2023/01/11 14:20:31 by lspohle          ###   ########.fr       */
+/*   Updated: 2023/01/11 15:04:55 by lspohle          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,13 +60,12 @@ char	*ft_strchr(const char *s, int c)
 
 	char_c = (char) c;
 	char_s = (char *) s;
-	i = 0;
-	while (i <= ft_strlen(s))
-	{
+	i = -1;
+	while (char_s[++i] != '\0')
 		if (char_s[i] == char_c)
 			return (&char_s[i]);
-		i++;
-	}
+	if (char_s[i] == char_c)
+		return (&char_s[i]);
 	return (NULL);
 }
 
