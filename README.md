@@ -21,5 +21,5 @@ Therefore we decided to address the project as a united front. We brainstormed o
 
 A great team is not just a composition of experts. From my experience, a great team embodies harmony. We need to listen to one another, and be able to speak up. A great team shall offer even introverts an opportunity to come forward and evolve. It shall even offer extroverts to take a step back and observe. It shall create a sincere environment in which every individual is presented the opportunity to grow. 
 
-Nevertheless, practice makes perfect and, therefore, I would recommend everyone to start more than once from scratch. Even if you do not change your approach, you are reflecting on your current approach again and again. Everytime you take a step back you question yourself. Either you gain confidence in your abilities, or you learn by raising questions. 
+Nevertheless, practice makes perfect and, therefore, I would recommend everyone to start more than once from scratch. Even if you do not change your approach, you are reflecting on your current approach again and again. Every time you take a step back you question yourself. Either you gain confidence in your abilities, or you learn by raising questions. 
 
