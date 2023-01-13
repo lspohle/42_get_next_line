@@ -100,11 +100,11 @@ char	*check_for_line(int fd, char **remainder, char *line, int *inf)
 // Returns NULL if an error occurred or there is no line left
 char	*get_next_line(int fd)
 {
-	static char	*remainder[1000];
+	static char	*remainder[256]; // launchctl limit maxfiles
 	char		*line;
 	int			inf;
 
-	if (fd == -1)
+	if (fd <= -1)
 		return (NULL);
 	inf = 1;
 	if (remainder[fd] == NULL)

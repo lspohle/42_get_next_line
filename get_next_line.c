@@ -104,7 +104,7 @@ char	*get_next_line(int fd)
 	char		*line;
 	int			inf;
 
-	if (fd == -1)
+	if (fd <= -1)
 		return (NULL);
 	inf = 1;
 	if (remainder == NULL)
